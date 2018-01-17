@@ -1,0 +1,34 @@
+#property_gallery_mb.postbox{
+    
+}
+
+#property_gallery_mb.postbox ul{
+    width:100%;
+}
+
+#property_gallery_mb.postbox ul:after{
+    clear:both;
+    content:'';
+}
+
+#property_gallery_mb.postbox ul li{
+    float:left;
+    width:80px;
+    position:relative;
+    padding:02px;
+}
+
+#property_gallery_mb.postbox ul li img{
+    max-width:100%;
+}
+
+#property_gallery_mb.postbox ul li span{
+    cursor:pointer;
+    position:absolute;
+    top:-2px;
+    right:-2px;
+}
+
+#property_gallery_mb.postbox ul li span:hover{
+    color:red;
+}
